@@ -1,6 +1,24 @@
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
     background-color: #0a0a23;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+
+.wrap{
+  width: 50%;
+  height: 600px;
+  background-image: url(assets/Gemini_Generated_Image_997saz997saz997s.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+  position: relative;
+}
   
   #text {
     background-color: #0a0a23;
@@ -43,3 +61,11 @@ body {
     background-image: linear-gradient(#fecc4c, #ffac33);
     border: 3px solid #feac32;
   }
+
+  .post-img{
+    height: 350px;
+    position: absolute;
+    left: 200px;
+    top: 300px;
+  }
+  
